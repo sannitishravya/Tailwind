@@ -37,7 +37,10 @@ export default function App() {
     //   <h1 className="p-4 text-gray-500 font-bold text-3xl"> Upgrad Login</h1>
     //   <UpgradLogin />
     // </div>
+    <div className="position-relative">
     <MobileToast/>
+
+    </div>
   );
 }
 // bg-gradient-to-r from-lime-400 to-lime-500
