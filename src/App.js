@@ -8,9 +8,10 @@
 // import UpgradLogin from "./UpgradLogin";
 // // import Calculator from "./Calculator";
 import MobileToast from "./atoms/MobileToast";
-// import Toast from "./atoms/Toast";
+import Toast from "./atoms/Toast";
 
 export default function App() {
+  
   return (
     // <div className="flex-column">
     //   <h1 className="text-green-500 font-bold text-5xl m4 p-4">
@@ -37,9 +38,9 @@ export default function App() {
     //   <h1 className="p-4 text-gray-500 font-bold text-3xl"> Upgrad Login</h1>
     //   <UpgradLogin />
     // </div>
-    <div className="position-relative">
+    <div className="">
     <MobileToast/>
-
+    <Toast/>
     </div>
   );
 }

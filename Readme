@@ -62,3 +62,45 @@ button({
  * sm:hover:bg-green-700 md:bg-purple-500 md:hover:bg-purple-700 py-0 px-2 text-xs sm:py-1 sm:px-2 sm:text-sm 
  * md:py-1.5 md:px-3 md:text-md
  */
+
+
+ /* grid styles for calc */
+<!-- .parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 80px;
+    width:400px;
+    margin:20px;
+}
+
+.child{
+    border: 1px solid black;
+}
+
+.numbers{
+    grid-column: 1/5;
+    background-color: black;
+    display: grid;
+    align-items: center;
+    justify-content: end;
+    padding: 20px;
+}
+.zero{
+    grid-column: 1/3;
+}
+
+div,button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color:#fff;
+}
+
+.light-gray{
+    background-color: #D4D4D2;
+}
+.orange{
+    background-color: orange;
+}
+.dark-gray{
+    background-color: #505050;
+} -->
