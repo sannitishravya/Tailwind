@@ -11,7 +11,9 @@ import MobileToast from "./atoms/MobileToast";
 import Toast from "./atoms/Toast";
 
 export default function App() {
-  
+  const cardTitle =' Access Free Project Management Courses '
+  const cardSubtitle='Access free Courses'
+  const isMobile=true
   return (
     // <div className="flex-column">
     //   <h1 className="text-green-500 font-bold text-5xl m4 p-4">
@@ -39,8 +41,8 @@ export default function App() {
     //   <UpgradLogin />
     // </div>
     <div className="">
-    <MobileToast/>
-    <Toast/>
+    <MobileToast cardTitle={cardTitle} cardSubtitle={cardSubtitle} isMobile={isMobile}/>
+    <Toast cardTitle={cardTitle} cardSubtitle={cardSubtitle} isMobile={isMobile}/>
     </div>
   );
 }
